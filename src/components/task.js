@@ -62,8 +62,7 @@ export class Task extends Component {
     return tasks.length > 0
       ?(
         
-        <table class="table table-striped table-bordered
-        table-hover table-condensed">
+        <table id="customers">
           <tr>
             <th>Title</th>
             <th>Start date</th>
